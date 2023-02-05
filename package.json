@@ -1,26 +1,27 @@
 {
-  "name": "simple-component-library",
+  "name": "aladin-lib",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.3.2"
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "peerDependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build":
-      "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   }
 }
