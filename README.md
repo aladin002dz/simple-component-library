@@ -32,6 +32,7 @@ package.json
 ```
 npm run build
 ```
+**Remark:** in Windows you should run the command with `Git Bash`.
 ## Publish
 ```
 npm login
