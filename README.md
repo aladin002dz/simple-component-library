@@ -30,7 +30,7 @@ package.json
 
 ## Build
 ```
-npm run bild
+npm run build
 ```
 ## Publish
 ```
