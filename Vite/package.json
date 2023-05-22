@@ -1,0 +1,38 @@
+{
+  "name": "aladin-components-library",
+  "version": "0.1.1",
+  "description": "A collection of reusable React components",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/aladin-components-library.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "library"
+  ],
+  "author": "Mahfoudh Arous",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}
